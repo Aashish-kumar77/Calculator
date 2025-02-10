@@ -1,0 +1,59 @@
+.container {
+  height: 350px;
+  width: 280px;
+  margin: auto;
+
+  margin-top: 180px;
+  border: 2px solid black;
+  background-color: rgb(198, 239, 239);
+  border-radius: 4px;
+}
+
+.input {
+  margin-left: 2px;
+  width: 265px; /* Sets width of the input field */
+  height: 60px; /* Sets height of the input field */
+  padding: 5px; /* Adds padding for better appearance */
+  font-size: 14px; /* Adjusts font size */
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 4px;
+  background-color: #ccc;
+  font-size: 30px;
+  border: 1px black solid;
+  margin-top: 2px;
+}
+
+.input_Buttons {
+  height: 50px;
+  width: 60px;
+  background-color: rgb(171, 171, 210);
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.input_Buttons:hover {
+  cursor: pointer;
+  background-color: rgb(68, 68, 125);
+}
+
+.equal {
+  margin-top: 10px;
+  height: 40px;
+  width: 270px;
+  margin-left: 5px;
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+.equal:active {
+  height: 35px;
+  width: 265px;
+  box-shadow: 2px 3px 25px black;
+}
+
+.equal:hover {
+  cursor: pointer;
+  background-color: rgb(49, 198, 227);
+}
